@@ -1,0 +1,3 @@
+{
+  "extends": ["./node_modules/@greendeck/atomic-tools/lib/tslint.json"]
+}
