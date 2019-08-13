@@ -253,10 +253,7 @@ class Header extends React.Component {
                 alt="logo"
                 src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
               />
-              <img
-                alt="Ant Design"
-                src="https://gw.alipayobjects.com/zos/rmsportal/DkKNubTaaVsKURhcVGkh.svg"
-              />
+              Atomic Design
               <Santa />
             </Link>
           </Col>

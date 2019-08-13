@@ -69,7 +69,7 @@ class Home extends React.Component {
     const { isMobile } = this.context;
     const childProps = { ...this.props, isMobile, locale: intl.locale };
     return (
-      <DocumentTitle title={`Ant Design - ${intl.formatMessage({ id: 'app.home.slogan' })}`}>
+      <DocumentTitle title={`Atomic Design - ${intl.formatMessage({ id: 'app.home.slogan' })}`}>
         <>
           <style dangerouslySetInnerHTML={{ __html: getStyle() }} /> {/* eslint-disable-line */}
           <Banner {...childProps} />
