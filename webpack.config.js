@@ -50,4 +50,15 @@ if (process.env.RUN_ENV === 'PRODUCTION') {
   });
 }
 
+webpackConfig.module.rules.push(
+  {
+    test: /\.(woff|ttf)$/i,
+    use: [
+      {
+        loader: 'file-loader',
+      },
+    ]
+  }
+)
+
 module.exports = webpackConfig;
