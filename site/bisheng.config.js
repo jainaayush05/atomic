@@ -29,7 +29,6 @@ module.exports = {
   source: {
     components: './components',
     docs: './docs',
-    editor: './app-shell',
     changelog: ['CHANGELOG.zh-CN.md', 'CHANGELOG.en-US.md'],
   },
   theme: './site/theme',
